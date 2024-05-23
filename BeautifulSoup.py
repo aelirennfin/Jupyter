@@ -41,5 +41,6 @@ def clean_item2(my_item):
     position = my_item.find('</')
     return my_item[26:position]
 print("")
+
 for item in lst:
     print(clean_item2(str(item)))
